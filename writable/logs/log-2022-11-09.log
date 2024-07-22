@@ -1,0 +1,21 @@
+CRITICAL - 2022-11-09 16:40:27 --> Undefined array key "torneo"
+#0 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->mostrarDatoSeleccionado()
+#2 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#3 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:41:04 --> Undefined array key "torneo"
+#0 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->mostrarDatoSeleccionado()
+#2 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#3 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 16:41:14 --> Undefined array key "torneo"
+#0 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->mostrarDatoSeleccionado()
+#2 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#3 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,33 @@
+CRITICAL - 2022-11-15 17:51:55 --> Undefined array key "categoria"
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(27): view('clubRugby/lista...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-15 17:51:55 --> Undefined array key "categoria"
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(27): view('clubRugby/lista...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-15 17:54:52 --> Undefined array key "categoria"
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(27): view('clubRugby/lista...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

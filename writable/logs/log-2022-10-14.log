@@ -1,0 +1,180 @@
+CRITICAL - 2022-10-14 18:07:16 --> Undefined property: App\Controllers\ClubDeRugby::$load
+#0 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\CI4\system\CodeIgniter.php(809): App\Controllers\ClubDeRugby->__construct()
+#2 C:\xampp\htdocs\CI4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-14 18:09:33 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(67): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 22:03:48 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(67): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 22:11:41 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(67): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 22:11:58 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(67): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 22:26:22 -->  alpha is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(' alpha')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(67): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 22:27:15 -->  alpha is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(' alpha')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(67): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 22:29:40 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(67): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 22:30:42 --> Undefined variable $validation
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\inicio.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/inici...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(39): view('clubRugby/inici...')
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->index()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-14 22:30:52 --> Undefined variable $validation
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\inicio.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/inici...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(39): view('clubRugby/inici...')
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->index()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-14 22:42:09 --> Undefined variable $validation
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\inicio.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/inici...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(39): view('clubRugby/inici...')
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->index()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-14 22:43:32 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(70): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 22:53:54 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(70): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 22:54:10 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(70): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 22:54:33 -->  alpha is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(' alpha')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(70): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 23:00:59 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(78): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 23:07:04 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(79): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-14 23:18:23 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\CI4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\CI4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombre', 'nombre', NULL, Array, Array)
+#2 C:\xampp\htdocs\CI4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(79): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

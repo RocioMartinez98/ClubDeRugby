@@ -1,0 +1,159 @@
+ERROR - 2022-10-17 13:04:26 --> Duplicate entry '12343550' for key 'dni'
+CRITICAL - 2022-10-17 13:04:26 --> Duplicate entry '12343550' for key 'dni'
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `so...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 C:\xampp\htdocs\CI4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(68): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#10 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-17 13:09:53 --> Undefined array key "fnacjugador"
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-17 13:17:32 --> Cannot redeclare busca_edad() (previously declared in C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php:70)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-17 13:26:27 --> explode(): Argument #2 ($string) must be of type string, DateTime given
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php(81): explode('-', Object(DateTime))
+#1 C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php(102): edad(Object(DateTime))
+#2 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#5 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-17 13:27:08 --> Object of class DateTime could not be converted to string
+#0 C:\xampp\htdocs\CI4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-17 13:27:44 --> Object of class DateTime could not be converted to string
+#0 C:\xampp\htdocs\CI4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-17 13:28:18 --> Undefined variable $user
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-17 13:29:20 --> Undefined variable $user
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-17 13:29:28 --> Object of class DateTime could not be converted to string
+#0 C:\xampp\htdocs\CI4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-17 13:30:58 --> Undefined variable $theDate
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-17 13:31:09 --> Undefined variable $theDate
+#0 C:\xampp\htdocs\CI4\app\Views\clubRugby\listadoSocios.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-17 13:45:27 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#2 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#3 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-17 13:47:24 --> Call to a member function format() on string
+#0 C:\xampp\htdocs\CI4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-17 13:48:05 --> Call to a member function format() on string
+#0 C:\xampp\htdocs\CI4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('clubRugby/lista...', Array, true)
+#3 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(47): view('clubRugby/lista...', Array)
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->verListado()
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-10-17 13:50:50 --> Duplicate entry '12343551' for key 'dni'
+CRITICAL - 2022-10-17 13:50:50 --> Duplicate entry '12343551' for key 'dni'
+#0 C:\xampp\htdocs\CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `so...', 0)
+#1 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `so...')
+#2 C:\xampp\htdocs\CI4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `so...')
+#3 C:\xampp\htdocs\CI4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `so...', Array, false)
+#4 C:\xampp\htdocs\CI4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI4\app\Controllers\ClubDeRugby.php(68): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\ClubDeRugby->guarda()
+#9 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClubDeRugby))
+#10 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI4\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
